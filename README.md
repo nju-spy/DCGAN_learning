@@ -2,6 +2,8 @@
 
 本项目实现了论文 [Unsupervised Representation Learning with Deep Convolutional Generative Adversarial Networks](http://arxiv.org/abs/1511.06434)。
 
+源代码链接 https://github.com/pytorch/examples/tree/main/dcgan
+
 每训练 100 个 iteration，会将真实样本图和生成样本图保存到磁盘：
 - `real_samples.png` — 来自数据集的真实图像
 - `fake_samples_epoch_XXX.png` — Generator 在当前 epoch 的生成图像
