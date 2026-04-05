@@ -1,0 +1,23 @@
+# 输出文件（生成图片、模型权重）
+output/
+*.pth
+*.png
+
+# 数据集
+data/
+
+# Python 缓存
+__pycache__/
+*.pyc
+*.pyo
+
+# 虚拟环境
+venv/
+.env/
+
+# IDE
+.vscode/
+.idea/
+
+# Jupyter
+.ipynb_checkpoints/
